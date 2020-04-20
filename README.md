@@ -21,10 +21,6 @@ Below assumes using the Azure Cloud Shell (PowerShell), with AZ ACCOUNT SET poin
           
 This does not create a public IP, so you will need to either attach one on the NIC resource, or use a Bastion Host, or connect via RDP from another VM available on the target network. 
 
-VMAZ-DNS Template:
-          This template deploys a Windows DNS server role and add Conditional Forwarder entries from the CSV file
-          
-
 TROUBLESHOOTING:
 - Important is having an effective route on the target subnet that can reach the FileUri specified to download the configure-server.ps1 script. For example, reaching the Azure Storage Account can be achieved various ways, such as using Service Endpoint, or ensuring there is no BGP and forced-tunneling of the default 0.0.0.0/0 route to on-premise by overriding it with a custom UDR, etc. 
 - There is no support for a proxy in this example
