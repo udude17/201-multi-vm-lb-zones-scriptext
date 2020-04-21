@@ -9,7 +9,7 @@
         "value": 2
       },
       "SubnetRefId": {
-        "value": "/subscriptions/<SUBID>/resourceGroups/Group-AMS-VNET-190/providers/Microsoft.Network/virtualNetworks/VNET-bmwPROD-190/subnets/Subnet-2"
+        "value": "/subscriptions/<SUBID>/resourceGroups/Group-AMS-VNET-190/providers/Microsoft.Network/virtualNetworks/<VNET-name>/subnets/Subnet-2"
       },
       "adminUsername": {
         "value": "admin101"
