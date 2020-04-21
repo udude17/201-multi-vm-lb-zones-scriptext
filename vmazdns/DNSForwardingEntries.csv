@@ -1,0 +1,15 @@
+ZoneName,TargetDnsServer1
+corpgroup.net,160.48.0.1
+corpgroup.com,160.48.0.2
+privatelink.blob.core.windows.net,168.63.129.16
+privatelink.database.windows.net,168.63.129.16
+privatelink.table.core.windows.net,168.63.129.16
+privatelink.queue.core.windows.net,168.63.129.16
+privatelink.file.core.windows.net,168.63.129.16
+privatelink.web.core.windows.net,168.63.129.16
+privatelink.documents.azure.com,168.63.129.16
+privatelink.mongo.cosmos.azure.com,168.63.129.16
+privatelink.postgres.database.azure.com,168.63.129.16
+privatelink.mysql.database.azure.com,168.63.129.16
+privatelink.azurecr.io,168.63.129.16
+privatelink.azurewebsites.net,168.63.129.16
